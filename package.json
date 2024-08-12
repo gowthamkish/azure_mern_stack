@@ -4,8 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "cd client/azure_mern_react && npm && npm run build && cd ../.. && node server",
-    "dev": "nodemon server",
+    "start": "cd client/azure_mern_react && npm run build && cd ../.. && node server",
+    "dev": "cd client/azure_mern_react && npm run build && cd ../.. && nodemon server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
